@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PROPIEDADES | Saengerpropiedades.cl</title>
+  <meta name="description" content="Propiedades en venta y arriendo - Saenger Propiedades Santiago Chile.">
+  <link rel="icon" href="images/favicon.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html"><img src="images/logo.jpg" alt="Saenger Propiedades" class="logo"></a>
+    <nav class="nav">
+      <a href="index.html">INICIO</a>
+      <a href="index.html#servicios">SERVICIOS</a>
+      <a href="propiedades.html" class="active">PROPIEDADES</a>
+      <a href="blog.html">BLOG</a>
+      <a href="index.html#contacto">CONTACTO</a>
+    </nav>
+    <button class="mobile-toggle" aria-label="Menu">&#9776;</button>
+  </div>
+  <div class="mobile-menu">
+    <a href="index.html">INICIO</a>
+    <a href="index.html#servicios">SERVICIOS</a>
+    <a href="propiedades.html">PROPIEDADES</a>
+    <a href="blog.html">BLOG</a>
+    <a href="index.html#contacto">CONTACTO</a>
+  </div>
+</header>
+
+<div class="page-title">
+  <h1>Propiedades</h1>
+</div>
+
+<section class="section section-gray" style="padding-top:50px">
+  <div class="container">
+    <h3 style="margin-bottom:20px">Filtros</h3>
+    <div class="filters">
+      <div class="filter-group">
+        <select id="filter-operacion">
+          <option value="*">OPERACION</option>
+          <option value="venta">VENTA</option>
+          <option value="arriendo">ARRIENDO</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <select id="filter-propiedad">
+          <option value="*">PROPIEDAD</option>
+          <option value="departamento">DEPARTAMENTO</option>
+          <option value="casa">CASA</option>
+          <option value="parcela">PARCELA</option>
+          <option value="lotes">LOTES</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <select id="filter-comuna">
+          <option value="*">COMUNA - CIUDAD</option>
+          <option value="las-condes">LAS CONDES</option>
+          <option value="santiago">SANTIAGO</option>
+          <option value="lo-barnechea">LO BARNECHEA</option>
+          <option value="machali">MACHALI</option>
+          <option value="nuinoa">NUÑOA</option>
+          <option value="pucon">PUCON</option>
+          <option value="san-pedro-de-la-paz">SAN PEDRO DE LA PAZ</option>
+          <option value="vitacura">VITACURA</option>
+          <option value="usa">USA</option>
+        </select>
+      </div>
+      <div class="search-box">
+        <span class="search-icon">&#128269;</span>
+        <input type="text" id="search-input" placeholder="Buscar">
+      </div>
+    </div>
+
+    <div class="properties-grid">
+
+      <div class="property-card" data-cats="venta departamento santiago vitacura" data-title="departamento en venta vitacura">
+        <div class="property-card-overlay">
+          <img src="images/prop-1.jpg" alt="Departamento en Venta Vitacura">
+          <div class="overlay">
+            <a class="overlay-btn gallery-btn" data-src="images/prop-1.jpg" href="#">&#128269;</a>
+            <a class="overlay-btn" href="propiedades/departamento-en-venta-vitacura.html">&#128279;</a>
+          </div>
+        </div>
+        <div class="property-card-title"><h3>DEPARTAMENTO EN VENTA VITACURA</h3></div>
+      </div>
+
+      <div class="property-card" data-cats="venta departamento santiago lo-barnechea" data-title="departamento en venta portal la dehesa lo barnechea">
+        <div class="property-card-overlay">
+          <img src="images/prop-2.jpg" alt="Departamento en Venta Portal La Dehesa Lo Barnechea">
+          <div class="overlay">
+            <a class="overlay-btn gallery-btn" data-src="images/prop-2.jpg" href="#">&#128269;</a>
+            <a class="overlay-btn" href="propiedades/departamento-en-venta-portal-la-dehesa.html">&#128279;</a>
+          </div>
+        </div>
+        <div class="property-card-title"><h3>DEPARTAMENTO EN VENTA PORTAL LA DEHESA LO BARNECHEA</h3></div>
+      </div>
+
+      <div class="property-card" data-cats="venta departamento las-condes santiago" data-title="departamento en venta metro manquehue">
+        <div class="property-card-overlay">
+          <img src="images/prop-3.jpg" alt="Departamento en Venta Metro Manquehue">
+          <div class="overlay">
+            <a class="overlay-btn gallery-btn" data-src="images/prop-3.jpg" href="#">&#128269;</a>
+            <a class="overlay-btn" href="propiedades/departamento-en-venta-metro-manquehue.html">&#128279;</a>
+          </div>
+        </div>
+        <div class="property-card-title"><h3>DEPARTAMENTO EN VENTA METRO MANQUEHUE</h3></div>
+      </div>
+
+      <div class="property-card" data-cats="arriendo departamento nuinoa santiago" data-title="departamento en arriendo metro chile-españa">
+        <div class="property-card-overlay">
+          <img src="images/prop-4.jpg" alt="Departamento en Arriendo Metro Chile-España">
+          <div class="overlay">
+            <a class="overlay-btn gallery-btn" data-src="images/prop-4.jpg" href="#">&#128269;</a>
+            <a class="overlay-btn" href="propiedades/departamento-en-arriendo-metro-chile-espana.html">&#128279;</a>
+          </div>
+        </div>
+        <div class="property-card-title"><h3>DEPARTAMENTO EN ARRIENDO METRO CHILE-ESPAÑA</h3></div>
+      </div>
+
+      <div class="property-card" data-cats="venta parcela pucon" data-title="parcelas en venta pucon">
+        <div class="property-card-overlay">
+          <img src="images/prop-5.jpg" alt="Parcelas en Venta Pucón">
+          <div class="overlay">
+            <a class="overlay-btn gallery-btn" data-src="images/prop-5.jpg" href="#">&#128269;</a>
+            <a class="overlay-btn" href="propiedades/parcelas-en-venta-pucon.html">&#128279;</a>
+          </div>
+        </div>
+        <div class="property-card-title"><h3>PARCELAS EN VENTA PUCÓN</h3></div>
+      </div>
+
+      <div class="property-card" data-cats="venta departamento santiago" data-title="departamento en venta metros universidad de chile / santa lucia, san diego">
+        <div class="property-card-overlay">
+          <img src="images/prop-6.jpg" alt="Departamento en Venta Universidad de Chile">
+          <div class="overlay">
+            <a class="overlay-btn gallery-btn" data-src="images/prop-6.jpg" href="#">&#128269;</a>
+            <a class="overlay-btn" href="propiedades/departamento-en-venta-metros-udechile-santalu-san-diego.html">&#128279;</a>
+          </div>
+        </div>
+        <div class="property-card-title"><h3>DEPARTAMENTO EN VENTA METROS UNIVERSIDAD DE CHILE / SANTA LUCIA, SAN DIEGO</h3></div>
+      </div>
+
+      <div class="property-card" data-cats="venta departamento las-condes santiago" data-title="departamento en venta metro manquehue, sebastian elcano, las condes">
+        <div class="property-card-overlay">
+          <img src="images/prop-7.jpg" alt="Departamento en Venta Metro Manquehue">
+          <div class="overlay">
+            <a class="overlay-btn gallery-btn" data-src="images/prop-7.jpg" href="#">&#128269;</a>
+            <a class="overlay-btn" href="propiedades/departamento-en-venta-metro-manquehue-sebastian-elcano.html">&#128279;</a>
+          </div>
+        </div>
+        <div class="property-card-title"><h3>DEPARTAMENTO EN VENTA METRO MANQUEHUE, SEBASTIÁN ELCANO, LAS CONDES</h3></div>
+      </div>
+
+      <div class="property-card" data-cats="venta departamento las-condes santiago" data-title="departamento en venta cerca de colegio southern school, las condes">
+        <div class="property-card-overlay">
+          <img src="images/prop-8.jpg" alt="Departamento en Venta Las Condes">
+          <div class="overlay">
+            <a class="overlay-btn gallery-btn" data-src="images/prop-8.jpg" href="#">&#128269;</a>
+            <a class="overlay-btn" href="propiedades/departamento-en-venta-colegio-southern-school.html">&#128279;</a>
+          </div>
+        </div>
+        <div class="property-card-title"><h3>DEPARTAMENTO EN VENTA CERCA DE COLEGIO SOUTHERN SCHOOL, LAS CONDES</h3></div>
+      </div>
+
+      <div class="property-card" data-cats="venta lotes usa" data-title="en venta lotes residenciales en florida, usa">
+        <div class="property-card-overlay">
+          <img src="images/prop-9.jpg" alt="Lotes en Venta Florida USA">
+          <div class="overlay">
+            <a class="overlay-btn gallery-btn" data-src="images/prop-9.jpg" href="#">&#128269;</a>
+            <a class="overlay-btn" href="propiedades/en-venta-lotes-residenciales-florida-usa.html">&#128279;</a>
+          </div>
+        </div>
+        <div class="property-card-title"><h3>EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA</h3></div>
+      </div>
+
+      <div class="property-card" data-cats="venta departamento usa" data-title="se venden departamentos en miami doral">
+        <div class="property-card-overlay">
+          <img src="images/prop-10.jpg" alt="Departamento en Venta Miami Doral">
+          <div class="overlay">
+            <a class="overlay-btn gallery-btn" data-src="images/prop-10.jpg" href="#">&#128269;</a>
+            <a class="overlay-btn" href="propiedades/se-venden-departamentos-miami-doral.html">&#128279;</a>
+          </div>
+        </div>
+        <div class="property-card-title"><h3>SE VENDEN DEPARTAMENTOS EN MIAMI DORAL</h3></div>
+      </div>
+
+      <div class="property-card" data-cats="venta parcela san-pedro-de-la-paz" data-title="en venta hermosas parcelas camino a santa juana, san pedro de la paz">
+        <div class="property-card-overlay">
+          <img src="images/prop-11.jpg" alt="Parcelas en Venta San Pedro de la Paz">
+          <div class="overlay">
+            <a class="overlay-btn gallery-btn" data-src="images/prop-11.jpg" href="#">&#128269;</a>
+            <a class="overlay-btn" href="propiedades/en-venta-parcelas-santa-juana-san-pedro.html">&#128279;</a>
+          </div>
+        </div>
+        <div class="property-card-title"><h3>EN VENTA HERMOSAS PARCELAS CAMINO A SANTA JUANA, SAN PEDRO DE LA PAZ</h3></div>
+      </div>
+
+      <div class="property-card" data-cats="venta casa machali" data-title="en venta hermosas casas en condominio en alto nogales de machali">
+        <div class="property-card-overlay">
+          <img src="images/prop-12.jpg" alt="Casas en Venta Machalí">
+          <div class="overlay">
+            <a class="overlay-btn gallery-btn" data-src="images/prop-12.jpg" href="#">&#128269;</a>
+            <a class="overlay-btn" href="propiedades/en-venta-casas-condominio-alto-nogales-machali.html">&#128279;</a>
+          </div>
+        </div>
+        <div class="property-card-title"><h3>EN VENTA HERMOSAS CASAS EN CONDOMINIO EN ALTO NOGALES DE MACHALÍ</h3></div>
+      </div>
+
+      <div class="property-card" data-cats="arriendo casa pucon" data-title="en arriendo amplia casa por día, villa saltos del molco">
+        <div class="property-card-overlay">
+          <img src="images/prop-13.jpg" alt="Casa en Arriendo Villa Saltos del Molco">
+          <div class="overlay">
+            <a class="overlay-btn gallery-btn" data-src="images/prop-13.jpg" href="#">&#128269;</a>
+            <a class="overlay-btn" href="propiedades/en-arriendo-casa-villa-saltos-del-molco.html">&#128279;</a>
+          </div>
+        </div>
+        <div class="property-card-title"><h3>EN ARRIENDO AMPLIA CASA POR DÍA, VILLA SALTOS DEL MOLCO</h3></div>
+      </div>
+
+      <div class="property-card" data-cats="venta departamento santiago" data-title="en venta excelente departamento a pasos de plaza brasil">
+        <div class="property-card-overlay">
+          <img src="images/prop-14.jpg" alt="Departamento Plaza Brasil">
+          <div class="overlay">
+            <a class="overlay-btn gallery-btn" data-src="images/prop-14.jpg" href="#">&#128269;</a>
+            <a class="overlay-btn" href="propiedades/en-venta-departamento-plaza-brasil.html">&#128279;</a>
+          </div>
+        </div>
+        <div class="property-card-title"><h3>EN VENTA EXCELENTE DEPARTAMENTO A PASOS DE PLAZA BRASIL</h3></div>
+      </div>
+
+    </div>
+
+    <p class="no-results">No se encontraron propiedades con estos filtros.</p>
+  </div>
+</section>
+
+<footer class="footer-widgets">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>TELÉFONO</h4>
+        <p><strong>FONO:</strong> <a href="tel:+56225020345">+56 2 2502 0345</a><br><strong>CELULAR:</strong> <a href="https://wa.me/56978788704">+56 9 7878 8704</a></p>
+      </div>
+      <div>
+        <h4>E-MAIL</h4>
+        <p><a href="mailto:contacto@saengerpropiedades.cl">contacto@saengerpropiedades.cl</a></p>
+      </div>
+      <div>
+        <h4>DIRECCIÓN</h4>
+        <p>Santiago – Chile.</p>
+      </div>
+      <div>
+        <h4>REDES SOCIALES</h4>
+        <p>Contactanos por WhatsApp o por correo electrónico.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="footer-copyright">
+  Sitio desarrollado por: <a href="http://www.sitioswebchile.cl" target="_blank">www.SitiosWebChile.cl</a>
+</div>
+
+<a href="https://wa.me/56978788704" class="whatsapp-btn" target="_blank" aria-label="WhatsApp">
+  <svg viewBox="0 0 32 32"><path d="M16.004 0h-.008C7.174 0 0 7.176 0 16c0 3.5 1.132 6.744 3.054 9.378L1.054 31.25l6.118-1.978A15.912 15.912 0 0016.004 32C24.826 32 32 24.822 32 16S24.826 0 16.004 0zm9.314 22.606c-.39 1.094-1.932 2.004-3.158 2.27-.836.18-1.928.322-5.598-1.202-4.696-1.952-7.716-6.736-7.948-7.052-.222-.316-1.846-2.458-1.846-4.69s1.17-3.334 1.584-3.792c.39-.436.922-.562 1.228-.562.152 0 .284.008.406.014.418.018.626.042.9.714.336.832 1.154 2.936 1.254 3.15.1.214.214.5.05.792-.15.3-.282.484-.546.764-.264.28-.526.512-.758.734-.236.236-.468.486-.192.894.276.41 1.224 2.016 2.62 3.266 1.796 1.606 3.264 2.104 3.844 2.336.434.174.684.146.934-.086.25-.234 1.07-1.246 1.354-1.678.284-.432.57-.36.96-.216.39.146 2.462 1.16 2.884 1.372.42.214.7.32.804.496.104.176.104 1.02-.286 2.114z"/></svg>
+</a>
+
+<a href="tel:+56978788704" class="call-btn" aria-label="Llamar">
+  <svg viewBox="0 0 32 32"><path d="M27.014 23.489l-1.754 1.753a5.001 5.001 0 01-5.199 1.182c-1.972-.694-4.873-2.364-8.438-5.929S6.387 14.028 5.693 12.056a5.001 5.001 0 011.182-5.199l1.753-1.753a1 1 0 011.414.001l2.828 2.829a1 1 0 01.001 1.414l-1.806 1.806a40.743 40.743 0 004.076 4.584 40.741 40.741 0 004.584 4.076l1.806-1.806a1 1 0 011.414.001l2.828 2.828a1 1 0 01.001 1.414z"/></svg>
+</a>
+
+<div id="lightbox" class="lightbox">
+  <span class="lightbox-close">&times;</span>
+  <img src="" alt="Propiedad">
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
