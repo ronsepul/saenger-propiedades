@@ -3,53 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA | Saengerpropiedades.cl</title>
-  <meta name="description" content="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Saenger Propiedades Santiago Chile.">
+  <title>EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA | Saengerpropiedades.cl</title>
   <link rel="icon" href="../images/favicon.jpg" type="image/jpeg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
   <style>
-    .detail-section { padding: 50px 10%; background: #fff; }
-    .detail-title { text-align: center; margin-bottom: 20px; }
-    .detail-title h1 { font-size: 28px; color: #333; text-transform: uppercase; }
-    .detail-price { text-align: center; margin-bottom: 30px; }
-    .detail-price span { font-size: 32px; color: #00c12d; font-weight: 700; }
-    .detail-main-img { width: 100%; max-height: 500px; object-fit: cover; border-radius: 5px; margin-bottom: 30px; }
-    .detail-description { max-width: 900px; margin: 0 auto 40px; line-height: 1.8; color: #555; }
-    .detail-description p { margin-bottom: 12px; }
-    .detail-description ul { margin: 10px 0 10px 20px; }
-    .detail-description ul li { list-style: disc; margin-bottom: 5px; }
-    .detail-gallery-title { text-align: center; margin-bottom: 20px; }
-    .detail-gallery-title h2 { font-size: 24px; color: #333; }
-    .detail-gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 40px; }
-    .gallery-item { overflow: hidden; border-radius: 5px; cursor: pointer; }
-    .gallery-item img { width: 100%; height: 200px; object-fit: cover; transition: transform .3s; }
-    .gallery-item:hover img { transform: scale(1.05); }
-    .detail-back { text-align: center; padding: 30px 0; }
-    .detail-back .btn { display: inline-block; padding: 15px 40px; background: linear-gradient(to top, #00f7a9, #00c12d); color: #fff; font-size: 16px; font-weight: 700; text-transform: uppercase; border-radius: 50px; }
-    .detail-back .btn:hover { background: #00f7a9; }
-    .detail-lightbox { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,.9); z-index: 10000; align-items: center; justify-content: center; }
-    .detail-lightbox.active { display: flex; }
-    .detail-lightbox img { max-width: 90%; max-height: 90%; border-radius: 5px; }
-    .detail-lightbox-close { position: absolute; top: 20px; right: 30px; color: #fff; font-size: 40px; cursor: pointer; }
-    @media(max-width:768px) {
-      .detail-gallery { grid-template-columns: repeat(2, 1fr); }
-      .detail-title h1 { font-size: 20px; }
-      .detail-price span { font-size: 24px; }
-    }
+    .detail-section{padding:50px 10%;background:#fff}
+    .detail-title{text-align:center;margin-bottom:20px}
+    .detail-title h1{font-size:28px;color:#333;text-transform:uppercase}
+    .detail-price{text-align:center;margin-bottom:30px}
+    .detail-price span{font-size:32px;color:#00c12d;font-weight:700}
+    .detail-main-img{width:100%;max-height:500px;object-fit:cover;border-radius:5px;margin-bottom:30px}
+    .detail-description{max-width:900px;margin:0 auto 40px;line-height:1.8;color:#555}
+    .detail-description p{margin-bottom:12px}
+    .detail-description ul{margin:10px 0 10px 20px}
+    .detail-description li{list-style:disc;margin-bottom:5px}
+    .detail-gallery-title{text-align:center;margin-bottom:20px}
+    .detail-gallery-title h2{font-size:24px;color:#333}
+    .detail-gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:40px}
+    .gallery-item{overflow:hidden;border-radius:5px;cursor:pointer}
+    .gallery-item img{width:100%;height:200px;object-fit:cover;transition:transform .3s}
+    .gallery-item:hover img{transform:scale(1.05)}
+    .detail-back{text-align:center;padding:30px 0}
+    .detail-back .btn{display:inline-block;padding:15px 40px;background:linear-gradient(to top,#00f7a9,#00c12d);color:#fff;font-size:16px;font-weight:700;text-transform:uppercase;border-radius:50px;text-decoration:none}
+    .detail-back .btn:hover{background:#00f7a9}
+    .detail-lightbox{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.9);z-index:10000;align-items:center;justify-content:center}
+    .detail-lightbox.active{display:flex}
+    .detail-lightbox img{max-width:90%;max-height:90%;border-radius:5px}
+    .detail-lightbox-close{position:absolute;top:20px;right:30px;color:#fff;font-size:40px;cursor:pointer}
+    @media(max-width:768px){.detail-gallery{grid-template-columns:repeat(2,1fr)}.detail-title h1{font-size:20px}.detail-price span{font-size:24px}}
   </style>
 </head>
 <body>
-
 <header class="header">
   <div class="header-inner">
     <a href="../index.html"><img src="../images/logo.jpg" alt="Saenger Propiedades" class="logo"></a>
     <nav class="nav">
       <a href="../index.html">INICIO</a>
       <a href="../index.html#servicios">SERVICIOS</a>
-      <a href="../propiedades.html" class="active">PROPIEDADES</a>
+      <a href="../propiedades.html">PROPIEDADES</a>
       <a href="../blog.html">BLOG</a>
       <a href="../index.html#contacto">CONTACTO</a>
     </nav>
@@ -63,134 +57,72 @@
     <a href="../index.html#contacto">CONTACTO</a>
   </div>
 </header>
-
-<div class="page-title">
-  <h1>EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA</h1>
-</div>
-
+<div class="page-title"><h1>EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA</h1></div>
 <div class="detail-section">
-  <div class="detail-title">
-    <h1>EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA</h1>
-  </div>
-  <div class="detail-price">
-    <span>Consultar precio</span>
-  </div>
-
-  <img src="en-venta-lotes-residenciales-florida-usa-main.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA" class="detail-main-img">
-
+  <div class="detail-title"><h1>EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA</h1></div>
+  <div class="detail-price"><span>Consultar</span></div>
+  <img src="en-venta-lotes-residenciales-florida-usa-main.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA" class="detail-main-img">
   <div class="detail-description">
-    <p>Se venden Lotes residenciales listos para construcci�n en zonas con gran desarrollo habitacional, conexi�n de luz, agua potable, alcantarillado, internet y telefon�a.</p>
-<p>Firma de contrato directamente en la embajada de EEUU en Santiago.</p>
-<p>GASPARILLA (US$35.000,00)</p>
-<p>exclusividad de la zona, rodeada de ciudades de playa muy elegantes con casas de alto nivel.</p>
-<p>"A solo minutos Isla de Gasparilla con 7 kil�metros de playas, consideradas entre las mejores de la naci�n.</p>
-<p>"Al lado de la ciudad de Boca Grande, residencia de ricos y famosos, con restaurantes, tiendas, bares, festivales, ferias, etc&</p>
-<p>"A 5 minutos del campo de Golf Coral Creek Club catalogado como uno de los campos de Golf m�s importantes de la Florida, dise�ado por Tom Fazio y considerado entre los 17 mejores campos de Golf de la Florida.</p>
-<p>"Con acceso a varias marinas con excelentes instalaciones para los amantes de los botes.</p>
-<p>SARASOTA (US$25.000,00)</p>
-<p>�Transporte p�blico a todas las �reas del proyecto, escuelas, hospitales, Universidades y todo tipo de centros comerciales a solo minutos del proyecto.</p>
-<p>Transporte p�blico a todas las �reas del proyecto, escuelas, hospitales, Universidades y todo tipo de centros comerciales a solo minutos del proyecto.</p>
-<p>�Todos los lotes tienen sus calles pavimentadas, electricidad y tel�fono, listos para construir cuando usted lo desee, ya que no tiene tiempo l�mite para que lo construya.</p>
-<p>�Siesta Beach es la playa n�mero 1 de la naci�n seg�n TripAdvisor. El turismo en Sarasota genera m�s de 1.5 billones de d�lares con un promedio de 4.8 millones de visitantes cada a�o.</p>
-<p>OCALA (US$15.000,00/US$25.000,00)</p>
-<p>�Transporte p�blico a todas las �reas del proyecto, escuelas, hospitales, Universidades y todo tipo de centros comerciales a solo minutos del proyecto.</p>
-<p>�Todos los lotes tienen sus calles pavimentadas, electricidad y tel�fono, listos para construir cuando usted lo desee, ya que no tiene tiempo l�mite para que lo construya.</p>
-<p>�Bloomberg Business, una conocida revista especializada en estudios econ�micos, le ha otorgado a la ciudad de Ocala el s�ptimo lugar en crecimiento econ�mico de la naci�n para 2016. Los habitantes de Ocala son conocidos por su amabilidad y cortes�a, creando un ambiente de paz y seguridad para sus ciudadanos.</p>
-
+    <p>Lotes residenciales en venta en Florida, Estados Unidos.</p>
+    <ul>
+      <li>Inversión en el extranjero</li>
+      <li>Lotes con servicios basicos</li>
+      <li>Zona en crecimiento</li>
+    </ul>
   </div>
-
-  <div class="detail-gallery-title">
-    <h2>Galería de Fotos</h2>
-  </div>
+  <div class="detail-gallery-title"><h2>Galería de Fotos</h2></div>
   <div class="detail-gallery">
-        <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-1.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Foto 1" loading="lazy"></div>
-        <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-2.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Foto 2" loading="lazy"></div>
-        <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-3.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Foto 3" loading="lazy"></div>
-        <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-4.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Foto 4" loading="lazy"></div>
-        <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-5.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Foto 5" loading="lazy"></div>
-        <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-6.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Foto 6" loading="lazy"></div>
-        <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-7.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Foto 7" loading="lazy"></div>
-        <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-8.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Foto 8" loading="lazy"></div>
-        <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-9.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Foto 9" loading="lazy"></div>
-        <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-10.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Foto 10" loading="lazy"></div>
-        <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-11.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Foto 11" loading="lazy"></div>
-        <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-12.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Foto 12" loading="lazy"></div>
-        <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-13.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Foto 13" loading="lazy"></div>
-        <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-14.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Foto 14" loading="lazy"></div>
-        <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-15.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Foto 15" loading="lazy"></div>
-        <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-16.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Foto 16" loading="lazy"></div>
-        <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-17.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Foto 17" loading="lazy"></div>
-        <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-18.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Foto 18" loading="lazy"></div>
-        <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-19.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA , USA - Foto 19" loading="lazy"></div>
+    <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-1.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA - Foto 1" loading="lazy"></div>
+    <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-2.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA - Foto 2" loading="lazy"></div>
+    <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-3.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA - Foto 3" loading="lazy"></div>
+    <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-4.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA - Foto 4" loading="lazy"></div>
+    <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-5.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA - Foto 5" loading="lazy"></div>
+    <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-6.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA - Foto 6" loading="lazy"></div>
+    <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-7.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA - Foto 7" loading="lazy"></div>
+    <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-8.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA - Foto 8" loading="lazy"></div>
+    <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-9.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA - Foto 9" loading="lazy"></div>
+    <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-10.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA - Foto 10" loading="lazy"></div>
+    <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-11.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA - Foto 11" loading="lazy"></div>
+    <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-12.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA - Foto 12" loading="lazy"></div>
+    <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-13.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA - Foto 13" loading="lazy"></div>
+    <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-14.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA - Foto 14" loading="lazy"></div>
+    <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-15.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA - Foto 15" loading="lazy"></div>
+    <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-16.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA - Foto 16" loading="lazy"></div>
+    <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-17.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA - Foto 17" loading="lazy"></div>
+    <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-18.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA - Foto 18" loading="lazy"></div>
+    <div class="gallery-item"><img src="en-venta-lotes-residenciales-florida-usa-19.jpg" alt="EN VENTA LOTES RESIDENCIALES EN FLORIDA, USA - Foto 19" loading="lazy"></div>
   </div>
-
-  <div class="detail-back">
-    <a href="../propiedades.html" class="btn">� � Volver a Propiedades</a>
-  </div>
+  <div class="detail-back"><a href="../propiedades.html" class="btn">Volver a Propiedades</a></div>
 </div>
-
 <footer class="footer-widgets">
   <div class="container">
     <div class="footer-grid">
-      <div>
-        <h4>TEL�0FONO</h4>
-        <p><strong>FONO:</strong> <a href="tel:+56225020345">+56 2 2502 0345</a><br><strong>CELULAR:</strong> <a href="https://wa.me/56978788704">+56 9 7878 8704</a></p>
-      </div>
-      <div>
-        <h4>E-MAIL</h4>
-        <p><a href="mailto:contacto@saengerpropiedades.cl">contacto@saengerpropiedades.cl</a></p>
-      </div>
-      <div>
-        <h4>DIRECCI�N</h4>
-        <p>Santiago � Chile.</p>
-      </div>
-      <div>
-        <h4>REDES SOCIALES</h4>
-        <p>Contactanos por WhatsApp o por correo electrónico.</p>
-      </div>
+      <div><h4>TELÉFONO</h4><p><strong>FONO:</strong> <a href="tel:+56225020345">+56 2 2502 0345</a><br><strong>CELULAR:</strong> <a href="https://wa.me/56978788704">+56 9 7878 8704</a></p></div>
+      <div><h4>E-MAIL</h4><p><a href="mailto:contacto@saengerpropiedades.cl">contacto@saengerpropiedades.cl</a></p></div>
+      <div><h4>DIRECCIÓN</h4><p>Santiago – Chile.</p></div>
+      <div><h4>REDES SOCIALES</h4><p>Contactanos por WhatsApp o por correo electrónico.</p></div>
     </div>
   </div>
 </footer>
-<div class="footer-copyright">
-  Sitio desarrollado por: <a href="http://www.sitioswebchile.cl" target="_blank">www.SitiosWebChile.cl</a>
-</div>
-
+<div class="footer-copyright">Sitio desarrollado por: <a href="http://www.sitioswebchile.cl" target="_blank">www.SitiosWebChile.cl</a></div>
 <a href="https://wa.me/56978788704" class="whatsapp-btn" target="_blank" aria-label="WhatsApp">
   <svg viewBox="0 0 32 32"><path d="M16.004 0h-.008C7.174 0 0 7.176 0 16c0 3.5 1.132 6.744 3.054 9.378L1.054 31.25l6.118-1.978A15.912 15.912 0 0016.004 32C24.826 32 32 24.822 32 16S24.826 0 16.004 0zm9.314 22.606c-.39 1.094-1.932 2.004-3.158 2.27-.836.18-1.928.322-5.598-1.202-4.696-1.952-7.716-6.736-7.948-7.052-.222-.316-1.846-2.458-1.846-4.69s1.17-3.334 1.584-3.792c.39-.436.922-.562 1.228-.562.152 0 .284.008.406.014.418.018.626.042.9.714.336.832 1.154 2.936 1.254 3.15.1.214.214.5.05.792-.15.3-.282.484-.546.764-.264.28-.526.512-.758.734-.236.236-.468.486-.192.894.276.41 1.224 2.016 2.62 3.266 1.796 1.606 3.264 2.104 3.844 2.336.434.174.684.146.934-.086.25-.234 1.07-1.246 1.354-1.678.284-.432.57-.36.96-.216.39.146 2.462 1.16 2.884 1.372.42.214.7.32.804.496.104.176.104 1.02-.286 2.114z"/></svg>
 </a>
-
 <a href="tel:+56978788704" class="call-btn" aria-label="Llamar">
   <svg viewBox="0 0 32 32"><path d="M27.014 23.489l-1.754 1.753a5.001 5.001 0 01-5.199 1.182c-1.972-.694-4.873-2.364-8.438-5.929S6.387 14.028 5.693 12.056a5.001 5.001 0 011.182-5.199l1.753-1.753a1 1 0 011.414.001l2.828 2.829a1 1 0 01.001 1.414l-1.806 1.806a40.743 40.743 0 004.076 4.584 40.741 40.741 0 004.584 4.076l1.806-1.806a1 1 0 011.414.001l2.828 2.828a1 1 0 01.001 1.414z"/></svg>
 </a>
-
 <div id="detail-lightbox" class="detail-lightbox">
   <span class="detail-lightbox-close">&times;</span>
   <img src="" alt="">
 </div>
-
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Mobile menu
-  var toggle = document.querySelector('.mobile-toggle');
-  var menu = document.querySelector('.mobile-menu');
-  if (toggle && menu) {
-    toggle.addEventListener('click', function() {
-      menu.classList.toggle('open');
-      toggle.textContent = menu.classList.contains('open') ? '\u2715' : '\u2630';
-    });
-  }
-  // Gallery lightbox
-  var lightbox = document.getElementById('detail-lightbox');
-  var lbImg = lightbox.querySelector('img');
-  var lbClose = lightbox.querySelector('.detail-lightbox-close');
-  document.querySelectorAll('.gallery-item img').forEach(function(img) {
-    img.addEventListener('click', function() {
-      lbImg.src = img.src;
-      lightbox.classList.add('active');
-    });
-  });
-  lbClose.addEventListener('click', function() { lightbox.classList.remove('active'); });
-  lightbox.addEventListener('click', function(e) { if (e.target === lightbox) lightbox.classList.remove('active'); });
+document.addEventListener('DOMContentLoaded',function(){
+  var t=document.querySelector('.mobile-toggle'),m=document.querySelector('.mobile-menu');
+  if(t&&m)t.addEventListener('click',function(){m.classList.toggle('open');t.textContent=m.classList.contains('open')?'\u2715':'\u2630';});
+  var lb=document.getElementById('detail-lightbox'),li=lb.querySelector('img'),lc=lb.querySelector('.detail-lightbox-close');
+  document.querySelectorAll('.gallery-item img').forEach(function(i){i.addEventListener('click',function(){li.src=i.src;lb.classList.add('active');});});
+  lc.addEventListener('click',function(){lb.classList.remove('active');});
+  lb.addEventListener('click',function(e){if(e.target===lb)lb.classList.remove('active');});
 });
 </script>
 </body>
